@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="#edf2f5"/><text x="32" y="40" text-anchor="middle" font-family="Georgia,serif" font-size="26" fill="#496a7c">YM</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Yu Mi — YM monogram</title>
+  <defs>
+    <linearGradient id="tile" x1="8" y1="0" x2="56" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#52778b"/>
+      <stop offset="1" stop-color="#294e64"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#tile)"/>
+  <path d="m11 19 9 13 9-13M20 32v13M35 45V19l9 13 9-13v26" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

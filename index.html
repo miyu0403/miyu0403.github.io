@@ -9,8 +9,13 @@
     <meta property="og:title" content="Yu Mi | Zhejiang University">
     <meta property="og:description" content="Research on trustworthy language and multimodal models, multimodal RAG, and agentic reinforcement learning.">
     <title>Yu Mi | Zhejiang University</title>
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="icon" href="assets/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
     <link rel="stylesheet" href="styles.css">
+    <script src="navigation.js" defer></script>
+    <script src="figure-preview.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -27,7 +32,7 @@
 
     <header class="site-header">
       <nav class="top-nav" aria-label="On this page">
-        <a href="#about">About</a>
+        <a href="#about" aria-current="location">About</a>
         <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
@@ -37,7 +42,12 @@
 
     <div class="page-layout">
       <aside class="profile" aria-label="Personal information">
-        <div class="avatar"><img src="assets/images/touxiang.png" width="1254" height="1254" alt="Yu Mi’s illustrated avatar" decoding="async" fetchpriority="high"></div>
+        <button class="avatar" type="button" aria-label="Yu Mi’s avatar. At Marina Bay Sands, Singapore.">
+          <span class="avatar-inner">
+            <span class="avatar-front"><img src="assets/images/touxiang.png" width="1254" height="1254" alt="" decoding="async" fetchpriority="high"></span>
+            <span class="avatar-back" aria-hidden="true"><span>At Marina Bay Sands, Singapore</span></span>
+          </span>
+        </button>
         <h1>Yu Mi <span lang="zh-Hans">密语</span></h1>
         <p class="position">Master’s Student</p>
         <p class="affiliation">Zhejiang University</p>
@@ -55,8 +65,8 @@
       <main id="main">
         <section id="about" aria-labelledby="about-title">
           <h2 id="about-title">About Me</h2>
-          <p>I am a master’s student in <strong>Cyberspace Security</strong> at <a href="https://www.zju.edu.cn/">Zhejiang University</a>. Previously, I received my bachelor’s degree in Cyberspace Security from <a href="https://www.sdu.edu.cn/">Shandong University</a>.</p>
-          <p>My research focuses on <strong>trustworthy language and multimodal models</strong>, including hallucination detection and mitigation, multimodal retrieval-augmented generation, and agentic reinforcement learning.</p>
+          <p>Hi 👋, I am a master’s student in <strong>Computer Science and Technology</strong> at <a href="https://www.zju.edu.cn/">Zhejiang University</a>, advised by <a href="https://scholar.google.com/citations?user=a4IuTngAAAAJ">Zhixuan Chu</a>. Previously, I received my bachelor’s degree in Cyberspace Security from <a href="https://www.sdu.edu.cn/">Shandong University</a>.</p>
+          <p>My research focuses on <strong class="research-highlight">Trustworthy (M)LLMs</strong>, including hallucination detection and mitigation, multimodal retrieval-augmented generation, and agentic reinforcement learning.</p>
           <p class="collaboration">I am open to research collaborations. Feel free to <a href="mailto:miyu04@zju.edu.cn">get in touch<svg class="icon inline-arrow" aria-hidden="true"><use href="#icon-arrow"/></svg></a>!</p>
         </section>
 
